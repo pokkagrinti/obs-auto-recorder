@@ -60,7 +60,6 @@ SECONDS_TO_RECORD = 300  # 5 minutes
 
 # Threshold XP to start recording 
 THRESHOLD = 1000
-SECONDS_TO_RECORD = 300
 
 # Rate of polling the XP of the skill(s)
 XP_POLLING_RATE_IN_SECONDS = 10
