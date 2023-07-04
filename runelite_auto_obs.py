@@ -90,7 +90,7 @@ def check_record(threshold=1000):
 
     # Generate XP required for each level
     xp_chart = {}
-    for i in range(2, 100):
+    for i in range(1, 100):
         xp_chart[i] = get_experience_for_level(i)
 
     # Check if XP is within threshold to start recording
@@ -99,8 +99,7 @@ def check_record(threshold=1000):
         xp = skill_info_dict["xp"]
 
         # Get XP required for next level
-        xp_left_to_level = xp_chart[level+1] - xp_chart[level]
-
+        xp_left_to_level = xp_chart[level+1] - xp
         # Check if it is under the specified threshold
         if xp_left_to_level < threshold:
             return True
@@ -137,7 +136,7 @@ def main():
             print(now, "Started Recording.")
             client.start_record()
             
-            time.sleep(300)
+            time.sleep(SECONDS_TO_RECORD)
             
             client.stop_record()
             now = get_formatted_time()
