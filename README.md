@@ -65,3 +65,10 @@ SECONDS_TO_RECORD = 300
 # Rate of polling the XP of the skill(s)
 XP_POLLING_RATE_IN_SECONDS = 10
 ```
+
+
+## Contributing
+Any contributions are welcome! If you have a feature request, bug report, or improvement to the existing code, please feel free to open an issue or make a pull request.
+
+## License
+This project uses the GNU GPLv3 license.
