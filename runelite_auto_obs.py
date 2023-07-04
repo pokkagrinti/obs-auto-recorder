@@ -5,7 +5,7 @@ import requests
 import json
 import tomllib
 import sys
-from datetime import datetime
+from datetime import datetime   
 
 THRESHOLD = 1000
 SECONDS_TO_RECORD = 300
