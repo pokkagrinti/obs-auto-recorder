@@ -1,0 +1,30 @@
+[connection]
+host = "localhost"
+port = 4455
+password =  "yourpassword"
+
+# Change the values of the skills to 1 to start tracking them
+[skill]
+Attack = 0
+Defence = 0
+Strength = 0
+Hitpoints = 0
+Ranged = 0
+Prayer = 0
+Magic = 0
+Cooking = 0
+Woodcutting = 0
+Fletching = 0
+Fishing = 0
+Firemaking = 0
+Crafting = 0
+Smithing = 0
+Mining = 0
+Herblore = 0
+Agility = 0
+Thieving = 0
+Slayer = 0
+Farming = 0
+Runecraft = 0
+Hunter = 0
+Construction = 0
