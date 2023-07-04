@@ -133,10 +133,14 @@ def main():
 
         # Starts recording when XP is near
         if start_recording:
+            now = get_formatted_time()
             print(now, "Started Recording.")
             client.start_record()
+            
             time.sleep(300)
+            
             client.stop_record()
+            now = get_formatted_time()
             print(now, "Recording Ended.")
 
         time.sleep(XP_POLLING_RATE_IN_SECONDS)
