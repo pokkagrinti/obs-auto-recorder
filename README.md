@@ -18,7 +18,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Python 3.8 or later
 2. OBS
-3. Runelite (With plugins installed)
+3. Runelite and the following Runelite plugins installed and enabled:
    - Morg HTTP Client
 
 ## Installation
