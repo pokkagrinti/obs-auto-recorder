@@ -37,7 +37,7 @@ Before you begin, ensure you have met the following requirements:
 To use Runelite Auto OBS, follow these steps:
 
 1. Start the Runelite client and login to your account.
-2. Start OBS and configure your scenes. (Note: Manual configuration in OBS is needed to record Runelite screen as this script will not configure OBS.)
+2. Start OBS, configure your scenes, and start obs-websocket under `Tools`. (Note: Manual configuration in OBS is needed to record Runelite screen as this script will not configure OBS.)
 3. Edit `config.toml` to select the skill you want to track and set the desired recording time.
     ```toml
     # Example tracking of Attack
