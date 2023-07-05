@@ -86,7 +86,11 @@ def check_record(threshold=1000):
 
     # Get XP of skills
     tracked_skills_dict = get_skills_and_xp()
-    print(tracked_skills_dict, end="\n\n")
+    
+    if len(tracked_skills_dict) == 0:
+        print("No skills selected. Please edit config.toml to select skills for tracking.")
+    else:
+        print(tracked_skills_dict, end="\n\n")
 
     # Generate XP required for each level
     xp_chart = {}
