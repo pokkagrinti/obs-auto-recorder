@@ -1,4 +1,4 @@
-# Runelite Auto OBS
+# Runelite Auto OBS for OSRS
 
 [![Python Version](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)
@@ -17,7 +17,7 @@ Runelite Auto OBS is a Python tool designed to integrate with the Runelite clien
 Before you begin, ensure you have met the following requirements:
 
 1. Python 3.8 or later
-2. OBS v28 or later (Manual installation of obs-websocket required for versions earlier)
+2. OBS v28 or later (Manual installation of obs-websocket required for earlier versions)
 3. Runelite and the following Runelite plugins installed and enabled:
    - Morg HTTP Client
 
